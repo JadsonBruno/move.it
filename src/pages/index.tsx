@@ -16,7 +16,13 @@ import styles from '../styles/pages/Home.module.css';
 /**
  * TYPES
  */
-import {IHome} from './index.d';
+interface IHome
+{
+  level: number;
+  currentExperience: number;
+  challengesCompleted: number;
+}
+
 
 
 /**
