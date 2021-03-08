@@ -19,7 +19,7 @@ import {ICountdownProviderProps} from './countdownContext.d';
  * CONSTANTS AND DEFINITIONS
  */
 const MINUTE = 60;
-const TIME_START = 0.1;
+const TIME_START = 25;
 let countdownTimeout: NodeJS.Timeout | null = null;
 
 
