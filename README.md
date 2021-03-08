@@ -11,7 +11,7 @@ It's very simple: start the timer (25 minutes by default), complete the challeng
   - React
   - js-cookie
 
-The final version can be found here: 
+The final version can be found here: https://move-it-eight-tan.vercel.app/
 
 ## Instalation
 
