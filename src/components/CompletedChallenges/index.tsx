@@ -22,7 +22,10 @@ function CompletedChallenges ()
 
     // return component
     return (
-        <div className={styles.completedChallengesContainer}>
+        <div
+            className={styles.completedChallengesContainer}
+            data-testid="completed-challenges"
+        >
             <span>Desafios completos</span>
             <span>{challengesCompleted}</span>
         </div>

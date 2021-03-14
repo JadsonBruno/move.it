@@ -46,10 +46,10 @@ export function ChallengesProvider(
     }
 
     // listen to component mount
-    useEffect(()=> 
-    {
-        Notification.requestPermission();
-    }, [])
+    // useEffect(()=> 
+    // {
+    //     Notification.requestPermission();
+    // }, [])
 
     // listen to data changes
     useEffect(() =>

@@ -34,7 +34,10 @@ function Countdown ()
     // return component
     return (
         <>
-            <div className={styles.countdownContainer}>
+            <div
+                className={styles.countdownContainer}
+                data-testid="countdown"
+            >
                 <div>
                     <span>{minDecimal}</span>
                     <span>{minUnity}</span>
@@ -50,6 +53,7 @@ function Countdown ()
                 <button
                     disabled
                     className={styles.countdownButton}
+                    data-testid="button-countdown"
                 >
                     Ciclo encerrado
                 </button>
@@ -67,6 +71,7 @@ function Countdown ()
                             `
                         }
                         onClick={resetCountdown}
+                        data-testid="button-countdown"
                     >
                         Abandonar ciclo
                     </button>
@@ -77,6 +82,7 @@ function Countdown ()
                         type="button"
                         className={styles.countdownButton}
                         onClick={startCountdown}
+                        data-testid="button-countdown"
                     >
                         Iniciar um ciclo
                     </button>
