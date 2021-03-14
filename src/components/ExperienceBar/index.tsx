@@ -25,7 +25,10 @@ function ExperienceBar ()
 
     // return component
     return (
-        <header className={styles.experienceBar}>
+        <header
+            className={styles.experienceBar}
+            data-testid="experience-bar"
+        >
             <span>8 xp</span>
             <div>
                 <div style={{width: `${percentToNextLevel}%`}}/>

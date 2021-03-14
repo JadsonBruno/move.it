@@ -22,8 +22,11 @@ function Profile()
 
     // return component
     return(
-        <div className={styles.profileContainer}>
-            <img src='http://github.com/JadsonBruno.png' alt='Welles Paiva'/>
+        <div
+            className={styles.profileContainer}
+            data-testid="profile"
+        >
+            <img src='http://github.com/JadsonBruno.png' alt='Jadson Bruno'/>
             <div>
                 <strong>Jadson Bruno</strong>
                 <p>

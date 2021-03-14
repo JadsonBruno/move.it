@@ -22,7 +22,10 @@ function LevelUpModal ()
 
     // return component
     return (
-        <div className={styles.overlay}>
+        <div
+            className={styles.overlay}
+            data-testid="level-up-modal"
+        >
             <div className={styles.container}>
                 <header>
                     {level}

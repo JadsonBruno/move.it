@@ -49,6 +49,7 @@ function ChallengeBox ()
     return (
         <div
             className={styles.challengeBoxContainer}
+            data-testid="challengebox"
         >
             {
                 activeChallenge ?
@@ -74,6 +75,7 @@ function ChallengeBox ()
                                 type="button"
                                 className={styles.challengeFailedButton}
                                 onClick={handleChallengeFailed}
+                                data-testid="button-challengebox"
                             >
                                 Falhei
                             </button> 
@@ -81,6 +83,7 @@ function ChallengeBox ()
                                 type="button"
                                 className={styles.challengeSucceededButton}
                                 onClick={handleChallengeSucceeded}
+                                data-testid="button-challengebox"
                             >
                                 Completei
                             </button>
